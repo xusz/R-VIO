@@ -1,3 +1,4 @@
+## Fork from https://github.com/rpng/R-VIO
 # R-VIO
 
 R-VIO is an efficient, lightweight, **robocentric visual-inertial odometry** algorithm for consistent 3D motion tracking using only a monocular camera and a 6-axis IMU. Different from standard world-centric VINS algorithms which directly estimate absolute motion of the sensing platform with respect to a fixed, gravity-aligned, global frame of reference, R-VIO estimates the relative motion of higher accuracy with respect to a moving, local frame (for example, IMU frame) and updates global pose (orientation and position) estimate through composition. This code is developed with the robocentric sliding-window filtering-based VIO framework that was originally proposed in our *IROS2018* paper and further extended in our recent *IJRR* paper:
